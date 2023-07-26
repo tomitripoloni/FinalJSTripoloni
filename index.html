@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f3621dd72d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-title">Tienda de Ropa</div>
+    <div class="cart-icon" id="cartIcon" title="Carrito de Compras">
+      <i class="fas fa-shopping-cart"></i>
+      <div class="cart-items-list" id="cartItemsList">
+        <!-- Aquí se mostrará la lista de productos agregados al carrito -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="mt-4 text-center">Bienvenido</h1>
+    <div class="form-group text-center">
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" class="form-control" required>
+      <button id="startButton" class="btn btn-primary mt-2">Comenzar</button>
+    </div>
+    <div id="productsContainer" class="row justify-content-center"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+

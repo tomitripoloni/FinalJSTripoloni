@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+  color: #c00;
+  text-align: center;
+}
+
+/* Estilos para el formulario */
+.form-group {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form-group label {
+  color: #fff;
+}
+
+/* Estilos para los productos */
+.product {
+  border: 1px solid #c00;
+  padding: 15px;
+  margin: 10px;
+  max-width: 200px;
+  text-align: center;
+  background-color: #000;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #c00;
+}
+
+.product button {
+  background-color: #c00;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product button:hover {
+  background-color: #900;
+}
+
+/* Estilos para el carrito en la navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c00;
+  padding: 10px;
+}
+
+.navbar-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart-icon {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-icon .fas {
+  font-size: 24px;
+}
+
+.cart-items-list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  background-color: #000;
+  border: 1px solid #c00;
+  padding: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #c00;
+}
+
+.cart-item-name {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.cart-item-price {
+  font-size: 16px;
+  color: #c00;
+}
+
+.cart-item button {
+  background-color: #c00;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: #900;
+}
+
+/* Estilos para el modal de finalizar compra */
+.modal-content {
+  background-color: #f8f8f8;
+}
+
+.modal-title {
+  color: #c00;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.modal-body {
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+}
+
+.modal-footer {
+  text-align: center;
+  border-top: none;
+}
